@@ -2,7 +2,7 @@
 
 INTRODUCTION
 
-This month last year, I applied for an online internship with PWC, through forage.
+ I applied for an online internship with PWC, through forage.
 
 It was an exciting experience, the goal was to lay hold on real-time dataset and come up with insights for the assumed companies.
 
@@ -29,7 +29,7 @@ To begin the analysis and then create the dashboard, after looking into the data
 
 SKILLS DEMONSTRATED
 Skills used in this analysis includes:
-• Data cleaning
+•Data cleaning
 •DAX Function
 •Data visualization
 •Data analysis
@@ -52,6 +52,7 @@ Day=weekdays(sheet1[Date].[Day])
 
 ***for_the_name_of_days***
 Days=Format(sheet1[Day],"dddd")
+
 I proceeded to write out a calculated measure, to obtain the average talk duration, excluding the rating that were 0, so as to get an accurate analysis.
 
 Avg satifactory rate= Calculate(average(sheet1[sactifaction rating]),sheet1[sactifaction rating]<>0)
@@ -66,15 +67,14 @@ You can interact with the dashboard here
 ANALYSIS
 
 A Total of 5000 calls were recieved by the call center in the space of 3 months, January-March 2021.
-4054 were answered the remaining 946 were not,
+
+1) 4054 were answered the remaining 946 were not,
 and about 3646 complaints were resolved, they had their highest call-in and resolved calls in January.
 
-Reason for calling
-
+2)Reason for calling
 For the reason of the calls, it was observed that most of the callers called in for streaming complain out of the 5 reasons stated
 
-
-Though majority of the complain about streaming were made in the January record, while the February and March had Admin support and Payment topping their list respectively.
+3)Though majority of the complain about streaming were made in the January record, while the February and March had Admin support and Payment topping their list respectively.
 
 It’s observed that the company had an improvement in streaming. But yet the company needed to work on their technical support system, they seem to be having consistent high complain for the space of the three months.
 
@@ -92,7 +92,7 @@ More information would be needed for further findings about the company
 Calls by Date and Weekday
 
 
-Most of the calls were made on the weekday, Tuesday.
+Most of the calls were made on the weekday, Monday.
 
 And the highest number of calls came in on the 11th of January with a total of 84 call-ins, majority of the reason for calling were payment.
 
@@ -109,7 +109,7 @@ Agent Jim was observed to be the most effective agent within the three month of 
 Average satisfactory rating
 
 
-For the three month man average satisfactory rating of 3.40 was calculated. With the highest average in the month of Jan (3.45), then Feb (3.38) and Mar(3.37).
+For the three month, average satisfactory rating of 3.40 was calculated. With the highest average in the month of Jan (3.45), then Feb (3.38) and Mar(3.37).
 
 I noticed that there was a fall in satisfactory rating in February, could be attributed to the percentage of resolved calls to answered call in that month. But in March an improvement was made, though the average is still below the initial, but the difference between the resolved call of February and March is significant.
 
